@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FF3131;
+}
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'red Hat Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.entrar {
+    position: absolute;
+    font-size: 300%;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 270px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    top: 23%    ;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 20px;
+}
+
+
+.redes a:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.redes a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    gap: 10%;
+    gap: 10px;
+}
+
+input {
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #F3F3F3;
+    padding-left: 10px;
+}
+
+span {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.texto-esqueceu-senha {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 7%;
+    border-radius: 30px;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+}
+
+.container-registrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-registrar a{
+    font-weight: bold;
+}
+
