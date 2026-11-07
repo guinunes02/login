@@ -24,10 +24,11 @@ a {
     position: absolute;
     font-size: 300%;
     left: 50%;
-    top: 10%;
+    top: 17%;
     transform: translateX(-50%);
     width: 270px;
     text-align: center;
+    color: white;
 }
 
 .redes {
@@ -37,7 +38,7 @@ a {
     align-items: center;
     width: 50%;
     height: 40px;
-    top: 23%    ;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     gap: 20px;
@@ -66,67 +67,63 @@ form {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 40%;
+    top: 46%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 77%;
     gap: 10%;
-    gap: 10px;
+    gap: 13px;
 }
 
 input {
     background-color: #F3F3F3;
     width: 100%;
-    height: 40px;
+    height: 39px;
     border: 1px solid #F3F3F3;
     padding-left: 10px;
 }
 
 span {
     position: absolute;
-    top: 34%;
+    top: 39%;
     left: 50%;
     transform: translateX(-50%);
+    color: white;
 }
 
-.texto-esqueceu-senha {
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.logar {
+.cadastrar {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     width: 50%;
-    height: 7%;
+    height: 6%;
     border-radius: 30px;
     position: absolute;
-    top: 67%;
+    top: 72%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-size: 150%;
-    font-weight: bold;
     color: white;
+    border: white 3px solid;
 }
 
-.container-registrar {
+.container-tem-conta {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
     position: absolute;
     width: 100%;
-    top: 80%;
+    top: 81%;
     left: 50%;
     transform: translateX(-50%);
+    color: white;
 }
 
-.container-registrar a{
+.container-tem-conta a{
     font-weight: bold;
+    color: white;
 }
 
