@@ -24,7 +24,7 @@ a {
     position: absolute;
     font-size: 300%;
     left: 50%;
-    top: 10%;
+    top: 60px;
     transform: translateX(-50%);
     width: 270px;
     text-align: center;
@@ -35,9 +35,9 @@ a {
     position: absolute;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 168px;
     height: 40px;
-    top: 23%    ;
+    top: 150px;    ;
     left: 50%;
     transform: translateX(-50%);
     gap: 20px;
@@ -66,17 +66,17 @@ form {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 40%;
+    top: 270px;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 290px;
     gap: 10%;
     gap: 10px;
 }
 
 input {
     background-color: #F3F3F3;
-    width: 100%;
+    width: 290px;
     height: 40px;
     border: 1px solid #F3F3F3;
     padding-left: 10px;
@@ -84,14 +84,14 @@ input {
 
 span {
     position: absolute;
-    top: 34%;
+    top: 223px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .texto-esqueceu-senha {
     position: absolute;
-    top: 58%;
+    top: 390px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -101,11 +101,11 @@ span {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
-    width: 50%;
-    height: 7%;
+    width: 180px;
+    height: 40px;
     border-radius: 30px;
     position: absolute;
-    top: 67%;
+    top: 440px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -121,7 +121,7 @@ span {
     gap: 5px;
     position: absolute;
     width: 100%;
-    top: 80%;
+    top: 510px;
     left: 50%;
     transform: translateX(-50%);
 }
